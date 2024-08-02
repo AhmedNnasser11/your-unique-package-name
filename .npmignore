@@ -1,0 +1,6 @@
+node_modules
+dist
+.git
+.npmignore
+vite.config.ts
+tsconfig.json

@@ -1,0 +1,31 @@
+{
+  "name": "your-unique-package-name",
+  "version": "1.0.0",
+  "description": "A React component package built with Vite and TypeScript",
+  "main": "dist/your-unique-package-name.umd.js",
+  "module": "dist/your-unique-package-name.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "scripts": {
+    "build": "vite build && tsc"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "typescript",
+    "component",
+    "package"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-unique-package-name.git"
+  }
+}
